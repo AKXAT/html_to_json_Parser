@@ -27,6 +27,6 @@ def text_to_json():
     
     # creating json file
     # the JSON file is named as test1
-    out_file = open("test2.json", "w")
+    out_file = open("details.json", "w")
     json.dump(dict1, out_file, indent = 4, sort_keys = False)
     out_file.close()

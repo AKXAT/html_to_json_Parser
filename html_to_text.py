@@ -28,7 +28,7 @@ def html_specific_funtion():
     address = str(re.findall(r"(?<=I'm interested in).*?:",converted_string)[0])
     html_to_text = ('name ' + (name) + '\n' + 'email ' + (emails) + '\n' + 'number ' + (number)
     + '\n' + 'date ' + (datetime) + '\n' + 'address ' + (address) )
-    print(html_to_text)
+    #print(html_to_text)
     with open("test1.txt", "w") as file1:
 	    file1.writelines(html_to_text)
 
